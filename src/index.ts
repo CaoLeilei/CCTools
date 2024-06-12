@@ -1,10 +1,10 @@
-import { createCommand } from "commander"
-import command from './commands/index'
+import { program } from "@commander-js/extra-typings"
+import command from './commands'
 
 // const commandOptions = {}
 
 const bootstrap = async () => {
-  const program = createCommand()
+  // const program = createCommand()
   console.log(command)
   // console.log(program)
   program
